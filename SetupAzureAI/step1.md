@@ -1,15 +1,13 @@
-# Bot チャネルの作成・設定
+# Translation APIを利用するためのアクセスキーの作成
 
-Step1 ではLINE 側の設定画面でBot を利用するためのチャネルの作成や設定を行います。
+Step1 ではAzure Cognitive ServicesのTranslation APIを利用するためのアクセスキーを作成します。
 
+## 1-1. Azure Portal にログイン
 
-## 1-1. LINE Developers にログイン
+[Azure Portal](https://azure.microsoft.com/ja-jp/features/azure-portal/) にアクセスしてログイン
+![Azure Portal](https://raw.githubusercontent.com//torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_Azure_Portal___Microsoft_Azure.png)
 
-[LINE Developers](https://developers.line.biz/ja/) にアクセスしてログイン
-![LINE Developers](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/LINEDevelopers.png)
-
-
-## 1-2. プロバイダーを選択
+## 1-2. リソースの作成
 
 任意のプロバイダーを選択
 ![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
