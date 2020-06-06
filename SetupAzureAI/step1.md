@@ -1,6 +1,9 @@
-# Translation APIを利用するためのアクセスキーの作成
+# Translator Text API を利用するためのアクセスキーの作成
 
-Step1 ではAzure Cognitive ServicesのTranslation APIを利用するためのアクセスキーを作成します。
+Step1 ではAzure Cognitive ServicesのTranslator Text APIを利用するためのアクセスキーを作成します。
+
+Text Analytics API を呼び出すためにアクセス キーが必要になります。
+まずAzure portal を使用してアクセスキーを取得します。
 
 ## 1-1. Azure Portal にログイン
 
@@ -9,15 +12,19 @@ Step1 ではAzure Cognitive ServicesのTranslation APIを利用するための�
 
 ## 1-2. リソースの作成
 
-任意のプロバイダーを選択
+Azure portal のメニューまたは [ホーム] ページで [リソースの作成] を選択します。
 ![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
 
+## 1-2. リソースの作成
 
-プロバイダー未作成の人は画面上の「作成」ボタンを押下して新規作成してください。
+[Marketplace を検索] 検索ボックスに「text analytics」と入力して Enter キーまたは Return キーを押します。
+![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
 
-- *任意の「プロバイダー名」を入力して作成*
-    - *LINE* という文字列は含められません
+## 1-2. リソースの作成
+検索結果で [Text Analytics] を選択し、画面の右下にある [作成] ボタンをクリックします。
 
+## 1-2. リソースの作成
+表示された [作成] ページで、各フィールドに次の値を入力します。
 
 ## 1-3. チャネルを新規作成
 
@@ -29,90 +36,13 @@ Botのチャネルを作成
 
 チャネル情報を入力して、「入力内容を確認する」ボタンを押下する
 
-### チャネル情報の入力例
+## 1-4. アクセスキー をメモしておく
 
-|  項目名  |  値  |
-| :-- | :-- |
-|  アプリ名  |  テイクアウトアプリ  |
-|  アプリ説明  |  LINE × kintone × Azure AIでテイクアウトアプリを作ってみよう！  |
-|  大業種  |  個人  |
-|  小業種  |  個人（その他）  |
-|  メールアドレス  |  （ご自分のメールアドレス）  |
-|  プライバシーポリシーURL  |  （入力不要）  |
-|  サービス利用規約URL  |  （入力不要）  |
-
-
-![チャネルの情報を入力](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/InputChannelSetting.png)
-
-各種規約に同意してチャネルを作成する
-
-![各種規約に同意](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/AgreeTerms.png)
-
-情報利用に関する事項に同意する
-
-![情報利用に関する事項に同意する](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/AgreeTerms02.png)
-
-
-## 1-4. チャネルシークレット をメモしておく
-
-チャネル基本情報画面に表示されているチャネルシークレット をメモしておく
+チャネル基本情報画面に表示されているアクセスキーをメモしておく
 
 ![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/CopyChannelSecret_01.png)
 
 ![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/CopyChannelSecret_02.png)
 
-
-## 1-5. Webhook 設定
-
-「Messaging API設定」タブ内にある、Webhook URL の「編集」ボタンを押下してWebhook URL を入力可能状態にする
-
-![Webhook](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/WebhookSetting_01.png)
-
-![Webhook](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/WebhookSetting_02.png)
-
-
-Webhook URL に下記のダミーURL を入力して、「Webhookの利用」を有効にする
-
-- `https://google.com` 
-
-**後で正しい値に変更します**
-
-![Webhook URL](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/WebhookURL_02.png)
-「Webhookの利用」を有効にする
-
-
-## 1-6. 応答設定
-
-LINE公式アカウント機能 の画面右側にある「編集」リンクを押下して、公式アカウントマネージャー画面を開く
-
-![公式アカウントマネージャー画面](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/MessageSetting01.png)
-
-応答設定画面を開く
-
-公式アカウントマネージャー画面左の「応答設定」を選択して応答設定画面を開く
-
-![応答設定](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/MessageSetting02.png)
-
-応答設定を下記のように設定する
-
-|  項目名  |  値  |
-| :-- | :-- |
-|  応答モード  |  Bot  |
-|  あいさつメッセージ  |  オフ  |
-|  応答メッセージ  |  オフ  |
-|  Webhook  |  オン  |
-
-![応答設定](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/MessageSetting03.png)
-
-
-## 1-7. チャネルアクセストークン を発行してメモしておく
-
- LINE Developersに戻り、チャネルアクセストークンの「発行」ボタンを押下して発行し、メモしておく
-
-![GenerateToken](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/GenerateToken_01.png)
-
-![GenerateToken](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/GenerateToken_02.png)
-
-
 ### お疲れ様でした
-### 次のStep では、リッチメニュー の設定を行います
+### 次のStep では、Text Analytics APIのアクセスキーを作成します
