@@ -20,5 +20,5 @@ APIを使ってリッチメニューを作成します。
 `curl -OL https://github.com/sumihiro3/line-kintone-azure-takeout/blob/master/richmenu_default_ja.png`{{execute}}
 
 リッチメニューに画像を紐付けます。
-`curl -v -X POST https://api-data.line.me/v2/bot/richmenu/"$richMenuId"/content -H 'Authorization: Bearer '"$LINE_BOT_CHANNEL_ACCESS_TOKEN"'' -H 'Content-Type: image/jpeg' -T ./richmenu_default_ja.png`{{execute}}
+`curl -v -X POST https://api.line.me/v2/bot/richmenu/"$richMenuId"/content -H 'Authorization: Bearer '"$LINE_BOT_CHANNEL_ACCESS_TOKEN"'' -H 'Content-Type: image/png' -T richmenu_default_ja.png`{{execute}}
 
