@@ -82,4 +82,4 @@ LIFF アプリが追加されたことを確認する
 ![公開済み](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/ChannelPublished.png)
 
 ### お疲れ様でした
-### 次は、いよいよアプリを公開します
+### 次は、kintone のアプリ作成です！
