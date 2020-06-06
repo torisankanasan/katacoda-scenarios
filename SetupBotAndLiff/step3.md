@@ -1,6 +1,6 @@
 # LIFF 用チャネルの作成・設定
 
-Step3 ではLINE の設定画面でLIFF アプリを利用するためのチャネルの作成や設定を行います。
+Step3 ではLIFF アプリを利用するためのチャネルの作成や設定を行います。
 
 
 ## 3-1. LINE Developers にログイン
@@ -11,7 +11,7 @@ Step3 ではLINE の設定画面でLIFF アプリを利用するためのチャ�
 
 ## 3-2. プロバイダーを選択
 
- Bot を作ったのと同じプロバイダーを選択
+ Bot を作ったときと同じプロバイダーを選択
  
 ![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
 
@@ -66,7 +66,7 @@ LIFF アプリが追加されたことを確認する
 ![LIFFアプリ追加](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/LiffAppCreated.png)
 
 
-「LIFF URL」を控えておく
+「LIFF URL」をメモしておく
 
 ![LIFF URL](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/CopyLiffUrl.png)
 
