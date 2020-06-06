@@ -1,1 +1,3 @@
-You've completed your first Katacoda scenario!
+お疲れ様でした！
+
+次のシナリオに続きます！
