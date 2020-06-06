@@ -5,7 +5,7 @@ Step1 ではAzure Cognitive ServicesのTranslation APIを利用するための�
 ## 1-1. Azure Portal にログイン
 
 [Azure Portal](https://azure.microsoft.com/ja-jp/features/azure-portal/) にアクセスしてログイン
-![Azure Portal](https://raw.githubusercontent.com//torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_Azure_Portal___Microsoft_Azure.png)
+![Azure Portal](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_Azure_Portal___Microsoft_Azure.png)
 
 ## 1-2. リソースの作成
 
