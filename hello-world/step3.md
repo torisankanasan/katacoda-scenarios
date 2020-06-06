@@ -1,22 +1,22 @@
 # LIFF 用チャネルの作成・設定
 
-Step2 ではLINE の設定画面でLIFF アプリを利用するためのチャネルの作成や設定を行います。
+Step3 ではLINE の設定画面でLIFF アプリを利用するためのチャネルの作成や設定を行います。
 
 
-## 2-1. LINE Developers にログイン
+## 3-1. LINE Developers にログイン
 
 [LINE Developers](https://developers.line.biz/ja/) にアクセスしてログイン
 ![LINE Developers](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/LINEDevelopers.png)
 
 
-## 2-2. プロバイダーを選択
+## 3-2. プロバイダーを選択
 
  Bot を作ったのと同じプロバイダーを選択
  
 ![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
 
 
-## 2-3. LIFF 用のチャネルを作成
+## 3-3. LIFF 用のチャネルを作成
 
 チャネルを作成
 ![チャネル作成](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/NewChannel.png)
@@ -30,8 +30,8 @@ Step2 ではLINE の設定画面でLIFF アプリを利用するためのチャ�
 
 |  項目名  |  値  |
 | :-- | :-- |
-|  アプリ名  |  アンケートLIFFアプリ（ログイン）  |
-|  アプリ説明  |  LINE × kintoneでアンケートシステムを作ってみよう！  |
+|  アプリ名  |  テイクアウトアプリ  |
+|  アプリ説明  |  LINE × kintone × Azure AIでテイクアウトアプリを作ってみよう！  |
 |  アプリタイプ  |  ウェブアプリ  |
 |  メールアドレス  |  （ご自分のメールアドレス）  |
 |  プライバシーポリシーURL  |  （入力不要）  |
@@ -44,7 +44,7 @@ Step2 ではLINE の設定画面でLIFF アプリを利用するためのチャ�
 
 ![規約に同意](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/AgreeTerms.png)
 
-## 2-4. LIFF アプリを追加する
+## 3-4. LIFF アプリを追加する
 
 「LIFF」タブを選択して、LIFF アプリを追加する
 
@@ -52,7 +52,7 @@ Step2 ではLINE の設定画面でLIFF アプリを利用するためのチャ�
 
 |  項目名  |  値  |
 | :-- | :-- |
-|  LIFFアプリ名  |  アンケート  |
+|  LIFFアプリ名  |  商品の準備状況  |
 |  サイズ  |  Full  |
 |  エンドポイントURL（この時点ではダミー）  |  https://www.google.com  |
 |  Scope  |  profile, openid, chat_message.write  |
@@ -71,7 +71,7 @@ LIFF アプリが追加されたことを確認する
 ![LIFF URL](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/CopyLiffUrl.png)
 
 
-## 2-5. LINE ログインチャネルを公開する
+## 3-5. LINE ログインチャネルを公開する
 
 画面上部の「非公開」をチェックして公開する
 
@@ -80,31 +80,6 @@ LIFF アプリが追加されたことを確認する
 「公開済み」となっていればOK
 
 ![公開済み](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/ChannelPublished.png)
-
-
-## 2-6. シェアターゲットピッカーを有効にする
-
-シェアターゲットピッカーは、友だちへ簡単にLIFF アプリをシェアできる機能です。
-
-![シェアターゲットピッカー](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/EnableShareTargetPicker_01.png)
-
-![シェアターゲットピッカー](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/EnableShareTargetPicker_02.png)
-
-
-## 2-7. Bot リンク設定
-
-LINE ログインチャネル（LIFF）とMessaging API チャネル（Bot）とを紐付けて（Bot リンク）、一連のサービスとして提供することができます。
-
-Bot リンクするおくことで、LIFF アプリでサービスを提供しつつ、Bot でユーザーへメッセージ通知などを行うことができます。
-
-「LINE ログイン設定」タブを選択して、Bot リンク設定を行う
-
-![Bot リンク](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/BotLink_01.png)
-
-前のステップで作成したMessaging API アカウントを選択して、更新ボタンを押下する
-
-![Bot リンク](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/BotLink_02.png)
-
 
 ### お疲れ様でした
 ### 次は、いよいよアプリを公開します
