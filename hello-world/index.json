@@ -1,8 +1,8 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
-  "difficulty": "beginner",
-  "time": "2 minutes",
+  "title": "Set up the LINE Bot and LIFF account",
+  "description": "Set up the LINE Bot and LIFF account",
+  "difficulty": "Intermediate",
+  "time": "15 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Run Command",
