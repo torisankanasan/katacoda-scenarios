@@ -6,6 +6,11 @@
 
 このシナリオではAzure AI の紹介と設定を行います。
 
+事前準備として、Azureのアカウントを作成し、Azure Portalにログインできるようにしておいてください　https://portal.azure.com/
+
+ただし、Azure アカウントを作成するには、有効なクレジットカードが必要となるため、ハンズオンで開発するアプリはAzureとの連携をスキップした場合でも他の機能は動作するようにしております。
+
+
 ## Azure Cognitive Services とは？
 
 Azure Cognitive Services は、開発者が直接的な AI またはデータ サイエンスのスキルや知識がなくてもインテリジェントなアプリケーションを構築するために使用できる API、SDK、およびサービスです。 Azure Cognitive Services によって、開発者は簡単にアプリケーションに Cognitive 機能を追加できます。 Azure Cognitive Services の目標は、開発者が、聞いたり、話したり、理解したり、推論し始めたりできるアプリケーションの作成を支援することです。 Azure Cognitive Services 内のサービス カタログは、5 つの主要な柱として、視覚、音声、言語、Web 検索、および意思決定に分類できます。（[引用元](https://docs.microsoft.com/ja-jp/azure/cognitive-services/welcome)）
