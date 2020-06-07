@@ -7,7 +7,7 @@ Step2 ではText Analytics API を利用するためのエンドポイントURL�
 先ほど、ログインしたAzure portal のメニューまたはホームで [リソースの作成] を選択
 ![ホーム_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ホーム_Microsoft_Azure.png)
 
-検索ボックスに「text analytics」と入力して Enter キーを押す
+検索ボックスに「テキスト分析」と入力して Enter キーを押す
 ![analytics_新規_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/analytics_新規_-_Microsoft_Azure.png)
 
 検索結果から [テキスト分析] を選択し、 [作成] ボタンをクリック
