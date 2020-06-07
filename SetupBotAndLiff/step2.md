@@ -32,7 +32,7 @@ richmenuIdをメモしておく
 
 ![response](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/LINE_BotとリッチメニューとLIFFの設定___torisankanasan___Katacoda.png)
 
-## 2-4. チャネルアクセストークンを変数に設定する
+## 2-4. richMenuIdを変数に設定する
 
 Terminal で以下のコマンドを実行し、richMenuIdを変数に設定します。
 
