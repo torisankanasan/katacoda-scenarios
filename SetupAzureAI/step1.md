@@ -31,7 +31,7 @@ Azure Portal のメニューまたはホームで [リソースの作成] を�
 |  サブスクリプション  |  ご自身が利用したいもの  |
 |  リソース グループ  |  ldc_handson_20200609（なんでも）  |
 |  リージョン  |  東アジア  |
-|  Name  |  ldc_handson_translator  |
+|  Name  |  ldc-handson-translator  |
 |  Pricing tier |  F0 （Free レベルの選択がオススメ）  |
 
 ![Translator_の作成_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の作成_-_Microsoft_Azure.png)
@@ -42,11 +42,8 @@ Azure Portal のメニューまたはホームで [リソースの作成] を�
 
 ## 1-3. アクセスキーの確認
 
-"展開が成功しました" という通知の [リソースグループに移動] ボタンをクリック
-![Microsoft_CognitiveServicesTextTranslation-20200607123055___概要_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_CognitiveServicesTextTranslation-20200607123055___概要_-_Microsoft_Azure.png)
-
-先ほど作成したTranslatorリソース [ldc-handson-translator] をクリック
-![ldc_handson_20200609_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc_handson_20200609_-_Microsoft_Azure.png)
+ [リソースに移動] ボタンをクリック
+ ![Microsoft_CognitiveServicesTextTranslation-20200607132704___概要_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_CognitiveServicesTextTranslation-20200607132704___概要_-_Microsoft_Azure.png)
 
 左側のメニューの [キーとエンドポイント]、または[キーを管理するにはここをクリック]をクリック
 ![ldc-handson-translator_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc-handson-translator_-_Microsoft_Azure.png)
