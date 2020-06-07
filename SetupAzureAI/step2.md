@@ -21,7 +21,7 @@ Step2 ではText Analytics API を利用するためのエンドポイントURL�
 
 |  項目名  |  値  |
 | :-- | :-- |
-|  名前  |  ldc-handson-text-analytics  |
+|  名前  |  ldc-handson-text-analytics-${ご自身のお名前など}（他の人と被らなければOK）  |
 |  サブスクリプション  |  ご自身が利用したいもの  |
 |  場所  |  （Asia Pacific）東日本  |
 |  価格レベル |  Free F0 （Free レベルの選択がオススメ）  |

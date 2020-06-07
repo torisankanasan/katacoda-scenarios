@@ -31,7 +31,7 @@ Azure Portal のメニューまたはホームで [リソースの作成] を�
 |  サブスクリプション  |  ご自身が利用したいもの  |
 |  リソース グループ  |  ldc_handson_20200609（なんでも）  |
 |  リージョン  |  東アジア  |
-|  Name  |  ldc-handson-translator  |
+|  Name  |  ldc-handson-translator-${ご自身のお名前など}（他の人と被らなければOK）  |
 |  Pricing tier |  F0 （Free レベルの選択がオススメ）  |
 
 ![Translator_の作成_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の作成_-_Microsoft_Azure.png)
