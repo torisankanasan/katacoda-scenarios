@@ -2,7 +2,7 @@
 
 Step1 ではTranslator API を利用するためのアクセスキーを作成します。
 
-まずAzure portal を使用してアクセスキーを取得します。
+まずAzure Portal を使用してアクセスキーを取得します。
 
 ## 1-1. Azure Portal にログイン
 
@@ -11,13 +11,13 @@ Step1 ではTranslator API を利用するためのアクセスキーを作成�
 
 ## 1-2. リソースの作成
 
-Azure portal のメニューまたはホームで [リソースの作成] を選択
+Azure Portal のメニューまたはホームで [リソースの作成] を選択
 ![ホーム_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ホーム_Microsoft_Azure.png)
 
 検索ボックスに「translator」と入力して Enter キーを押す
 ![新規_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/新規_-_Microsoft_Azure.png)
 
-検索結果から [Translator] を選択し、画面の右下にある [作成] ボタンをクリック
+検索結果から [Translator] を選択し、[作成] ボタンをクリック
 ![Marketplace_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Marketplace_-_Microsoft_Azure.png)
 
 ![Translator_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_Microsoft_Azure.png)
@@ -30,18 +30,17 @@ Azure portal のメニューまたはホームで [リソースの作成] を�
 | :-- | :-- |
 |  サブスクリプション  |  ご自身が利用したいもの  |
 |  リソース グループ  |  ldc_handson_20200609（なんでも）  |
-|  リージョン  |  東アジア（なんでも）  |
+|  リージョン  |  東アジア  |
 |  Name  |  ldc_handson_translator  |
 |  Pricing tier |  F0 （Free レベルの選択がオススメ）  |
 
 ![Translator_の作成_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の作成_-_Microsoft_Azure.png)
 
- [作成] ボタンをクリック
+下部にある [作成] ボタンをクリック
 
 ![Translator_の確認_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の確認_Microsoft_Azure.png)
 
 ## 1-3. アクセスキーの確認
-Cognitive Services アカウントを用意できたので、API の呼び出しを開始できるようにアクセス キーを見つけましょう。
 
 "展開が成功しました" という通知の [リソースグループに移動] ボタンをクリック
 ![Microsoft_CognitiveServicesTextTranslation-20200607123055___概要_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_CognitiveServicesTextTranslation-20200607123055___概要_-_Microsoft_Azure.png)
