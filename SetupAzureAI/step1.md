@@ -45,7 +45,7 @@ Azure Portal のメニューまたはホームで [リソースの作成] を�
  [リソースに移動] ボタンをクリック
  ![Microsoft_CognitiveServicesTextTranslation-20200607132704___概要_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_CognitiveServicesTextTranslation-20200607132704___概要_-_Microsoft_Azure.png)
 
-左側のメニューの [キーとエンドポイント]、または[キーを管理するにはここをクリック]をクリック
+左側のメニューの [キーとエンドポイント]、または [キーを管理するにはここをクリック] をクリック
 ![ldc-handson-translator_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc-handson-translator_-_Microsoft_Azure.png)
 
 ## 1-4. アクセスキー をメモしておく
