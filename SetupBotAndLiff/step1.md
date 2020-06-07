@@ -12,8 +12,7 @@ Step1 ではLINE 公式アカウントをBot として利用するためにチ�
 ## 1-2. プロバイダーを選択
 
 任意のプロバイダーを選択
-![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
-
+![プロバイダー選択](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/LINE_Developers.png)
 
 プロバイダー未作成の人は画面上の「作成」ボタンを押下して新規作成してください。
 
@@ -24,7 +23,7 @@ Step1 ではLINE 公式アカウントをBot として利用するためにチ�
 ## 1-3. チャネルを新規作成
 
 Botのチャネルを作成
-![チャネル作成](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/NewChannel.png)
+![チャネル作成](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/チャネル作成_LINE_Developers.png)
 
 「Messaging API」 を選択
 ![Messaging API](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/SelectMessagingAPI.png)
@@ -44,7 +43,7 @@ Botのチャネルを作成
 |  サービス利用規約URL  |  （入力不要）  |
 
 
-![チャネルの情報を入力](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/InputChannelSetting.png)
+![チャネルの情報を入力](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/チャネル情報入力_LINE_Developers.png)
 
 各種規約に同意してチャネルを作成する
 
@@ -59,7 +58,7 @@ Botのチャネルを作成
 
 チャネル基本情報画面に表示されているチャネルシークレット をメモしておく
 
-![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/CopyChannelSecret_01.png)
+![CopyChannelSecret](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/基本情報確認_LINE_Developers.png)
 
 ![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/CopyChannelSecret_02.png)
 
@@ -79,7 +78,7 @@ Webhook URL に下記のダミーURL を入力して、「Webhookの利用」を
 
 **後で正しい値に変更します**
 
-![Webhook URL](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/WebhookURL_02.png)
+![Webhook URL](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/webhook_LINE_Developers.png)
 「Webhookの利用」を有効にする
 
 
@@ -93,7 +92,7 @@ LINE公式アカウント機能 の画面右側にある「編集」リンクを
 
 公式アカウントマネージャー画面左の「応答設定」を選択して応答設定画面を開く
 
-![応答設定](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/MessageSetting02.png)
+![応答設定](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/応答設定_LINE_Official_Account_Manager.png)
 
 応答設定を下記のように設定する
 
