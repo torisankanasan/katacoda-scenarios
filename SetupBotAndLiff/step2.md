@@ -45,5 +45,9 @@ Terminal で以下のコマンドを実行し、前の手順で作成したリ�
 
 `curl -v -X POST https://api.line.me/v2/bot/richmenu/"$richMenuId"/content -H 'Authorization: Bearer '"$LINE_TOKEN"'' -H 'Content-Type: image/png' -T ./richmenu_default_ja.png`{{execute}}
 
+以下のように空のJSONオブジェクトが返ってこれば、完了です。
+
+![response](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/response.png)
+
 ### お疲れ様でした
 ### 次のStep では、LIFF の設定を行います
