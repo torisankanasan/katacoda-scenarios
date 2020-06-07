@@ -1,8 +1,7 @@
-# Translator Text API を利用するためのアクセスキーの作成
+# Translator API を利用するためのアクセスキーの作成
 
-Step1 ではAzure Cognitive ServicesのTranslator Text APIを利用するためのアクセスキーを作成します。
+Step1 ではTranslator API を利用するためのアクセスキーを作成します。
 
-Text Analytics API を呼び出すためにアクセス キーが必要になります。
 まずAzure portal を使用してアクセスキーを取得します。
 
 ## 1-1. Azure Portal にログイン
@@ -12,37 +11,52 @@ Text Analytics API を呼び出すためにアクセス キーが必要になり
 
 ## 1-2. リソースの作成
 
-Azure portal のメニューまたは [ホーム] ページで [リソースの作成] を選択します。
-![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
+Azure portal のメニューまたはホームで [リソースの作成] を選択
+![ホーム_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ホーム_Microsoft_Azure.png)
 
-## 1-2. リソースの作成
+検索ボックスに「translator」と入力して Enter キーを押す
+![新規_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/新規_-_Microsoft_Azure.png)
 
-[Marketplace を検索] 検索ボックスに「text analytics」と入力して Enter キーまたは Return キーを押します。
-![プロバイダー選択](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/ProviderList.png)
+検索結果から [Translator] を選択し、画面の右下にある [作成] ボタンをクリック
+![Marketplace_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Marketplace_-_Microsoft_Azure.png)
 
-## 1-2. リソースの作成
-検索結果で [Text Analytics] を選択し、画面の右下にある [作成] ボタンをクリックします。
+![Translator_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_Microsoft_Azure.png)
 
-## 1-2. リソースの作成
-表示された [作成] ページで、各フィールドに次の値を入力します。
+表示された作成ページで、各入力欄に次の値を入力し、下部にある [確認および作成] ボタンをクリック
 
-## 1-3. チャネルを新規作成
+### 入力例
 
-Botのチャネルを作成
-![チャネル作成](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/NewChannel.png)
+|  項目名  |  値  |
+| :-- | :-- |
+|  サブスクリプション  |  ご自身が利用したいもの  |
+|  リソース グループ  |  ldc_handson_20200609（なんでも）  |
+|  リージョン  |  東アジア（なんでも）  |
+|  Name  |  ldc_handson_translator  |
+|  Pricing tier |  F0 （Free レベルの選択がオススメ）  |
 
-「Messaging API」 を選択
-![Messaging API](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/SelectMessagingAPI.png)
+![Translator_の作成_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の作成_-_Microsoft_Azure.png)
 
-チャネル情報を入力して、「入力内容を確認する」ボタンを押下する
+ [作成] ボタンをクリック
+
+![Translator_の確認_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の確認_Microsoft_Azure.png)
+
+## 1-3. アクセスキーの確認
+Cognitive Services アカウントを用意できたので、API の呼び出しを開始できるようにアクセス キーを見つけましょう。
+
+"展開が成功しました" という通知の [リソースグループに移動] ボタンをクリック
+![Microsoft_CognitiveServicesTextTranslation-20200607123055___概要_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Microsoft_CognitiveServicesTextTranslation-20200607123055___概要_-_Microsoft_Azure.png)
+
+先ほど作成したTranslatorリソース [ldc-handson-translator] をクリック
+![ldc_handson_20200609_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc_handson_20200609_-_Microsoft_Azure.png)
+
+左側のメニューの [キーとエンドポイント]、または[キーを管理するにはここをクリック]をクリック
+![ldc-handson-translator_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc-handson-translator_-_Microsoft_Azure.png)
 
 ## 1-4. アクセスキー をメモしておく
 
-チャネル基本情報画面に表示されているアクセスキーをメモしておく
+コピー ボタンをクリックして、いずれかのキーをコピーし、メモしておく
 
-![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/CopyChannelSecret_01.png)
-
-![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/CopyChannelSecret_02.png)
+![ldc-handson-translator___キーとエンドポイント_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc-handson-translator___キーとエンドポイント_-_Microsoft_Azure.png)
 
 ### お疲れ様でした
 ### 次のStep では、Text Analytics APIのアクセスキーを作成します
