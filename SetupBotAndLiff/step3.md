@@ -50,6 +50,10 @@ Step3 ではLIFF アプリを利用するためのチャネルの作成や設定
 
 ![LIFF アプリを追加](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/liff_LINE_Developers.png)
 
+LIFF アプリ基本情報を入力して、「追加」ボタンを押下する
+
+### LIFF アプリ基本情報の入力例
+
 |  項目名  |  値  |
 | :-- | :-- |
 |  LIFFアプリ名  |  商品の準備状況  |
