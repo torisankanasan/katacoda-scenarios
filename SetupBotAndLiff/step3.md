@@ -21,6 +21,7 @@ Step3 ではLIFF アプリを利用するためのチャネルの作成や設定
 ![チャネル作成](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/loginchannel_LINE_Developers.png)
 
 「LINE ログイン」 を選択
+
 ![LINE ログイン](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LiffKintoneQuestionaryCourse/SetupBotAndLiff/images/SelectLineLogin.png)
 
 チャネル情報を入力して、「入力内容を確認する」ボタンを押下する
