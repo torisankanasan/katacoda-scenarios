@@ -52,7 +52,7 @@ Azure Portal のメニューまたはホームで [リソースの作成] を�
 
 コピー ボタンをクリックして、いずれかのキーをコピーし、メモしておく
 
-![ldc-handson-translator___キーとエンドポイント_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc-handson-translator___キーとエンドポイント_-_Microsoft_Azure.png)
+![ldc-handson-translator___キーとエンドポイント_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/ldc-handson-translator___キーとエンドポイント_-_Microsoft_Azure.png)
 
 ### お疲れ様でした
 ### 次のStep では、Text Analytics APIのアクセスキーを作成します
