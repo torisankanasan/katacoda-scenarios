@@ -1,0 +1,16 @@
+{
+    "title": "LINEAppHandsonCourse",
+    "description": "LINEAppHandsonCourse",
+    "courses": [
+      {
+        "course_id": "SetupAzureAI",
+        "title": "Azure Cognitive Serviceの設定",
+        "description": "Azure Cognitive Serviceの設定"
+      },
+      {
+        "course_id": "SetupBotAndLiff",
+        "title": "LINE BotとリッチメニューとLIFFの設定",
+        "description": "LINE BotとリッチメニューとLIFFの設定"
+      }
+    ]
+  }
