@@ -1,6 +1,6 @@
 お疲れ様でした！
 
-次のシナリオに続きます！
+[次のシナリオに続きます！](https://www.katacoda.com/torisankanasan/scenarios/setupbotandliff)
 
 ## 補足（ハンズオン終了後、リソースをクリーンアップする）
 
