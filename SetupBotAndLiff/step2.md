@@ -28,7 +28,7 @@ Terminal で以下のコマンドを実行し、タップ領域を指定して�
 
 `curl -v -X POST https://api.line.me/v2/bot/richmenu -H 'Authorization: Bearer '"$LINE_TOKEN"'' -H 'Content-Type: application/json' -d '{"size": {"width": 2500,"height": 843},"selected": true,"name": "richmenu-default","chatBarText": "メニュー","areas": [{"bounds": {"x": 0,"y": 0,"width": 1250,"height": 843},"action": {"type": "postback","data": "type=menu","displayText": "注文する"}},{"bounds": {"x": 1250,"y": 0,"width": 625,"height": 422},"action": {"type": "postback","data": "type=business-hour","displayText": "営業時間"}},{"bounds": {"x": 1875,"y": 0,"width": 625,"height": 422},"action": {"type": "postback","data": "type=access","displayText": "アクセス"}},{"bounds": {"x": 1250,"y": 422,"width": 1250,"height": 421},"action": {"type": "postback","data": "type=customer-support","displayText": "問い合わせ"}}]}'`{{execute}}
 
-画像
+![response](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/LINE_BotとリッチメニューとLIFFの設定___torisankanasan___Katacoda.png)
 
 ## 2-4. チャネルアクセストークンを変数に設定する
 
