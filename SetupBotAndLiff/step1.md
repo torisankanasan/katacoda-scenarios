@@ -55,13 +55,13 @@ Botのチャネルを作成
 ![情報利用に関する事項に同意する](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/AgreeTerms02.png)
 
 
-## 1-4. チャネルシークレット とユーザーID をメモしておく
+## 1-4. チャネルシークレット をメモしておく
 
-チャネル基本情報画面に表示されているチャネルシークレット とユーザーID をメモしておく
+チャネル基本情報画面に表示されているチャネルシークレット をメモしておく
 
 ![CopyChannelSecret](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/基本情報確認_LINE_Developers.png)
 
-![CopyChannelSecret](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/userId&secret_LINE_Developers.png)
+![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/CopyChannelSecret_02.png)
 
 ## 1-5. Webhook 設定
 
