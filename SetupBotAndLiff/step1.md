@@ -54,14 +54,13 @@ Botのチャネルを作成
 ![情報利用に関する事項に同意する](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/AgreeTerms02.png)
 
 
-## 1-4. チャネルシークレット をメモしておく
+## 1-4. チャネルシークレット とユーザーID をメモしておく
 
-チャネル基本情報画面に表示されているチャネルシークレット をメモしておく
+チャネル基本情報画面に表示されているチャネルシークレット とユーザーID をメモしておく
 
 ![CopyChannelSecret](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/基本情報確認_LINE_Developers.png)
 
-![CopyChannelSecret](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/CopyChannelSecret_02.png)
-
+![CopyChannelSecret](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/userId&secret_LINE_Developers.png)
 
 ## 1-5. Webhook 設定
 
@@ -113,12 +112,6 @@ LINE公式アカウント機能 の画面右側にある「編集」リンクを
 ![GenerateToken](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/GenerateToken_01.png)
 
 ![GenerateToken](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/GenerateToken_02.png)
-
-## 1-8. ユーザーIDをメモしておく
-
- LINE Developersの「チャネル基本設定」タブ内にある、ユーザーIDをメモしておく
-
-![GenerateToken](https://raw.githubusercontent.com/sumihiro3/katacoda-scenarios/master/LineBotBasicCourse/LineBotBasicScenario/images/userId_LINE_Developers.png)
 
 ### お疲れ様でした
 ### 次のStep では、リッチメニュー の設定を行います
