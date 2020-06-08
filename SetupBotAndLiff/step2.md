@@ -51,34 +51,13 @@ Terminal で以下のコマンドを実行し、前の手順で作成したリ�
 
 ![response](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/response.png)
 
-## 2-6. ユーザーIDを変数に設定する
-
-Terminal で以下のコマンドを実行し、ユーザーIDを変数に設定します。
-
-`userId=${your_userId}`
-
-<font color="red">※ `${your_userId}` 部分は先ほどメモしたご自身のユーザーIDに置き換えてください。</font><br>
-
-## 2-7. リッチメニューとユーザーをリンクする
-
-Terminal で以下のコマンドを実行し、リッチメニューとユーザーをリンクします。
-（コマンド部分をクリックすると実行できます）
-
-`curl -v -X POST https://api.line.me/v2/bot/user/"$userId"/richmenu/"$richMenuId" -H 'Authorization: Bearer '"$LINE_TOKEN"'' -H 'Content-Type: application/json'`{{execute}}
-
-以下のように空のJSONオブジェクトが返ってこれば、完了です。
-
-![response](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/response.png)
+## 補足
 
 今回のアプリではユーザー単位のリッチメニュー制御を行うため、デフォルトのリッチメニューは設定しません。
 
-## 2-8. 作成したリッチメニューを確認する
+ユーザーがLINE公式アカウントと友達になった際にheroku上のシステムにて、動的にリッチメニューが設定されます。
 
-LINE Developersに戻り、「Messaging API 設定」タブ内にある、「QRコード」を読み取り、今回作るLINE公式アカウントと友達になる
-
-![qr_LINE_Developers](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/qr_LINE_Developers.png.png)
-
-
+<font color="red">！注意！</font>アプリをherokuにデプロイしてから、公式アカウントと友達になってください。
 
 ### お疲れ様でした
 ### 次のStep では、LIFF の設定を行います

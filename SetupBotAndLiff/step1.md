@@ -2,6 +2,7 @@
 
 Step1 ではLINE 公式アカウントをBot として利用するためにチャネルの作成や設定を行います。
 
+<font color="red">！注意！</font>アプリをherokuにデプロイしてから、公式アカウントと友達になってください。
 
 ## 1-1. LINE Developers にログイン
 
@@ -63,6 +64,10 @@ Botのチャネルを作成
 ![CopyChannelSecret](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/userId&secret_LINE_Developers.png)
 
 ## 1-5. Webhook 設定
+
+次に、「Messaging API設定」タブに進みます。
+
+<font color="red">！注意！</font>QRコードが表示されていますが、アプリをherokuにデプロイしてから、公式アカウントと友達になってください。
 
 「Messaging API設定」タブ内にある、Webhook URL の「編集」ボタンを押下してWebhook URL を入力可能状態にする
 
