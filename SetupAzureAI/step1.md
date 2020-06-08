@@ -34,7 +34,17 @@ Azure Portal のメニューまたはホームで [リソースの作成] を�
 |  Name  |  ldc-handson-translator-${ご自身のお名前など}（他の人と被らなければOK）  |
 |  Pricing tier |  F0 （Free レベルの選択がオススメ）  |
 
+※[価格については公式サイトをご参照ください](https://azure.microsoft.com/ja-jp/pricing/details/cognitive-services/translator/)
+
 ![Translator_の作成_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translator_の作成_-_Microsoft_Azure.png)
+
+### 価格レベルについて
+
+Freeプラン（F0）のリソースは1つしか作成できないため、過去にTranslator リソースを作成された場合などは、以下のようにFreeプラン（F0）が選択できなくなります。
+
+![価格_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/Translatorの価格_Microsoft_Azure.png)
+
+
 
 下部にある [作成] ボタンをクリック
 

@@ -27,7 +27,15 @@ Step2 ではText Analytics API を利用するためのエンドポイントURL�
 |  価格レベル |  Free F0 （Free レベルの選択がオススメ）  |
 |  リソース グループ  |  ldc_handson_20200609（先ほどと同じでOK）  |
 
+※[価格については公式サイトをご参照ください](https://azure.microsoft.com/ja-jp/pricing/details/cognitive-services/text-analytics/)
+
 ![作成_-_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/作成_-_Microsoft_Azure.png)
+
+### 価格レベルについて
+
+Freeプラン（F0）のリソースは1つしか作成できないため、過去にText Analytics リソースを作成された場合などは、以下のようにFreeプラン（F0）が選択できなくなります。
+
+![価格_Microsoft_Azure](https://raw.githubusercontent.com/torisankanasan/katacoda-scenarios/master/SetupAzureAI/images/価格_Microsoft_Azure.png)
 
 ## 2-2. エンドポイントURLとアクセスキーの確認
 
