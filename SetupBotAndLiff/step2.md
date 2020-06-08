@@ -64,7 +64,7 @@ Terminal で以下のコマンドを実行し、ユーザーIDを変数に設定
 Terminal で以下のコマンドを実行し、リッチメニューとユーザーをリンクします。
 （コマンド部分をクリックすると実行できます）
 
-`curl -v -X POST https://api.line.me/v2/bot/user/"$userId"/richmenu/"$richMenuId" -H 'Authorization: Bearer '"$LINE_TOKEN"''`{{execute}}
+`curl -v -X POST https://api.line.me/v2/bot/user/"$userId"/richmenu/"$richMenuId" -H 'Authorization: Bearer '"$LINE_TOKEN"'' -H 'Content-Type: application/json'`{{execute}}
 
 以下のように空のJSONオブジェクトが返ってこれば、完了です。
 
